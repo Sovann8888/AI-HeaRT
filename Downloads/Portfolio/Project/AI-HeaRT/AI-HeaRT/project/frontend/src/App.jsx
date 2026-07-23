@@ -7,7 +7,7 @@ import { useState, useRef, useEffect } from "react";
    it defaults to the local dev server started with `npm run dev`.
    ========================================================================= */
 
-const API_BASE_URL = "http://localhost:4000";
+const API_BASE_URL = "https://ai-heart-backend-pxrp.onrender.com";
 
 async function apiFetch(path, { method = "GET", body, token } = {}) {
   const headers = { "Content-Type": "application/json" };
