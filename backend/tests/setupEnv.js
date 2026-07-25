@@ -1,0 +1,9 @@
+process.env.DB_PATH = ":memory:";
+process.env.HASH_PEPPER = "test-pepper";
+process.env.OTP_EXPIRY_MINUTES = "5";
+process.env.OTP_MAX_ATTEMPTS = "3";
+process.env.OTP_RATE_LIMIT_WINDOW_MINUTES = "60";
+process.env.OTP_RATE_LIMIT_MAX = "5";
+process.env.SESSION_EXPIRY_DAYS = "30";
+process.env.SMS_PROVIDER = "mock";
+process.env.OTP_IP_RATE_LIMIT_MAX = "1000";
